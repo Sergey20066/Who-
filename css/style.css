@@ -1,0 +1,46 @@
+/* Header, footer */
+
+nav {
+    background-color: #f700eb;
+  }
+  
+  /* Navbar */
+  
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .nav-link, .dropdown-item {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  nav li {
+    padding: 0 18px;
+  }
+  
+  nav li.active, nav li.active:before {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  /* Header */
+header, footer {
+    background-color: #f700eb;
+}
+
+.custom-1 {
+  font-family: 'BarlowSemi Condensed 500', sans-serif;
+    font-weight: 550;
+}
+
+.custom-2 {
+  font-family: 'Robo', sans-serif;
+    font-weight: 500;
+}
+
+.custom-3 {
+  font-family: 'Poppins', sans-serif;
+   font-weight: 800;
+}
